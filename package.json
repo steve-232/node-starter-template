@@ -1,0 +1,23 @@
+{
+  "name": "node-starter-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/index.js",
+  "scripts": {
+    "dev": "NODE_ENV=dev nodemon server/index.js",
+    "dev:win": "set NODE_ENV=dev&&nodemon server/index.js",
+    "prod": "set NODE_ENV=production node server/index.js",
+    "prod:win": "set NODE_ENV=production&&node server/index.js"
+  },
+  "author": "steve232np@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "morgan": "^1.9.0",
+    "serve-favicon": "^2.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
+}
